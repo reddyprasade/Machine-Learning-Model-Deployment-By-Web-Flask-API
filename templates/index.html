@@ -1,0 +1,44 @@
+<html> 
+
+<head>
+<title>Street View House Numbers (SVHN) Dataset in Machine Learn Model Deployment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	
+	<h1 style="font-family:verdana;font-size:160%;text-align:center;">The Street View House Numbers (SVHN) Dataset</h1>	
+	
+	<p  style="text-align:justify;">SVHN is a real-world image dataset for developing machine learning and object recognition algorithms with minimal requirement on data preprocessing and formatting. It can be seen as similar in flavor to MNIST (e.g., the images are of small cropped digits), but incorporates an order of magnitude more labeled data (over 600,000 digit images) and comes from a significantly harder, unsolved, real world problem (recognizing digits and numbers in natural scene images). SVHN is obtained from house numbers in Google Street View images.</p>
+	<h3>Overview</h3>
+	<li>
+		10 classes, 1 for each digit. Digit <tt>'1'</tt> has label 1, <tt>'9'</tt> has label 9 and <tt>'0'</tt> has label 10.
+	</li>
+	<li>73257 digits for training, 26032 digits for testing, and 531131 additional, somewhat less difficult samples, to use as extra training data</li>
+	<li>	Comes in two formats:<br> 
+		<blockquote>1. Original images with character level bounding boxes.<br>2. MNIST-like 32-by-32 images centered around a single character (many of the images do contain some distractors at the sides).</blockquote>
+	</li>
+	<br><br>
+	
+
+
+
+
+
+
+
+
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" value="Upload">
+      <input type="submit" value="Predict"> {% if label %} {{ label }} {% endif %}
+    </form>
+	
+	
+	
+	
+
+</body>
+
+</html>
