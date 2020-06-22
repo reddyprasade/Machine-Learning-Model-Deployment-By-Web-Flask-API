@@ -4,7 +4,7 @@
 
 
 
-
+![](https://lh3.googleusercontent.com/-GKP4RON282Y/XvBY8nNVFnI/AAAAAAAAoss/BPEOQL4XagsCInXSZtBdXfkvb9U5Wh0mgCK8BGAsYHg/s0/2020-06-22.png)
 
 ### How tocd to the directory where requirements.txt is located.
 1. activate your virtualenv.
