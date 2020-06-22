@@ -6,6 +6,11 @@
 
 
 
+### How tocd to the directory where requirements.txt is located.
+1. activate your virtualenv.
+2. Open Cmd/Shell/Terminal.
+3. Go your downloaded File Directory where `requirements.txt` is located.
+4. Type this Command **pip install -r requirements.txt** in your shell/CMD/Terminal. Run the model
 
 
 
