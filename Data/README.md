@@ -19,3 +19,4 @@ SVHN is a real-world image dataset for developing machine learning and object re
 ### Reference
 
 1. [The Street View House Numbers (SVHN) Dataset](http://ufldl.stanford.edu/housenumbers/)
+2. [Data](http://ufldl.stanford.edu/housenumbers/extra_32x32.mat)
